@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>未使用AMD(require.js)</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<div>
+  <h1>未使用AMD(require.js)</h1>
+</div>
+<!-- 加载js顺序不能混乱，否则会报错 -->
+<script type='text/javascript' src='js/modules/dataService.js'></script>
+<script type='text/javascript' src='js/modules/alert.js'></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
