@@ -1,3 +1,4 @@
+// 统一暴露
 let data = 'module2 data'
 
 function fun1() {
@@ -8,4 +9,4 @@ function fun2() {
   console.log('module2 fun2() ' + data);
 }
 
-export {fun1, fun2}
+export {fun1, fun2};

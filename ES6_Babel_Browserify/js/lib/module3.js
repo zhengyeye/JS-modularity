@@ -1,3 +1,5 @@
+// 常规暴露 默认暴露
+// export default value
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -9,3 +11,10 @@ exports.default = {
         this.name = name;
     }
 };
+
+// export default {
+//     msg:"默认暴露",
+//     foo(){
+//         console.log(this.msg);
+//     }
+// }+-
